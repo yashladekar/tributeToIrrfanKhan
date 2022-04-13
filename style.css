@@ -3,6 +3,10 @@
         margin: 0;
     }
     
+    body {
+        margin: 1rem
+    }
+    
     .container1 {
         background-color: #f8f5de;
         background-image: linear-gradient(to right, rgba(255, 210, 0, 0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0, 0, 0, 0) 35%, rgba(200, 160, 0, 0.1) 65%);
@@ -94,6 +98,7 @@
         }
         .container1 {
             width: 100vh;
+            padding: 1.5rem;
         }
         .tweet-class {
             margin: auto;
