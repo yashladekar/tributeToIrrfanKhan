@@ -82,3 +82,25 @@
         width: 80%;
         height: 50%;
     }
+    
+    .twitter-tweet {
+        margin: 1rem;
+        padding-bottom: 5rem;
+    }
+    
+    @media (max-width: 425px) {
+        .info-container {
+            padding: 2rem 0rem 0 0rem;
+        }
+        .container1 {
+            width: 100vh;
+        }
+        .tweet-class {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .twitter-tweet {
+            padding-bottom: 2rem;
+        }
+    }
